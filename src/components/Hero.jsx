@@ -17,9 +17,9 @@ const Hero = () => {
 },[])
   return (
     <section>
-      <div className=" w-full  flex justify-center mt-[50px]" style={{minHeight:"100vh",width:"100%",alignItems:"center",flexWrap:"wrap"}}>
+      <div className=" w-full  flex justify-center " style={{minHeight:"100vh",width:"100%",alignItems:"center",flexWrap:"wrap"}}>
         <div
-          className={` ${width<900?styles.paddingX:""} flex flex-row items-start gap-5`} style={{maxWidth:"900px"}}
+          className={` ${width<900?styles.paddingX:""} flex mt-[50px] flex-row items-start gap-5`} style={{maxWidth:"900px"}}
         >
           <div className="flex flex-col justify-center items-center mt-5">
             <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
