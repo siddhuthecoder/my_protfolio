@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useState,useEffect}from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -13,6 +13,13 @@ import me3 from "../assets/me3.jpg";
 import me4 from "../assets/me4.jpg";
 
 const About = () => {
+  const [width,setWidth] = useState(window.innerWidth)
+  const handleWidth = () => {
+    setWidth(window.innerWidth)
+  }
+  useEffect(()=> {
+    window.addEventListener('resize',handleWidth)
+},[])
   const userData = [
     {
       title: "Name",
@@ -42,6 +49,11 @@ const About = () => {
       title: "Contact",
       data: "+91 93988 48215",
     },
+    {
+      title: "Contact",
+      data: "+91 93988 48215",
+    },
+    
   ];
   return (
     <>
@@ -50,11 +62,11 @@ const About = () => {
           className="flex justify-between "
           style={{ height: "auto", width: "100%", flexWrap: "wrap" }}
         >
-          <div className={`${styles.paddingX} `}>
+          <div className={`mx-auto`}>
             <img
               src={me1}
               alt=""
-              style={{ width: "420px", height: "100%" }}
+              style={{ maxWidth: "420px", width:"97%",height: "100%" }}
             />
           </div>
 
@@ -93,7 +105,7 @@ const About = () => {
                   width: "100%",
                   height: "2px",
                   borderRadius: "10px",
-                  margin: "10px 0px ",
+                  margin: "10px 0px 0px 0px ",
                 }}
               ></div>
 
@@ -121,20 +133,30 @@ const About = () => {
                   </div>
                 </div>
               ))}
-              <div
+              
+            
+            </div>
+            
+            {
+              width<800?(
+                <>
+                <div
                 style={{
                   backgroundColor: "grey",
                   width: "100%",
                   height: "2px",
                   borderRadius: "10px",
-                  margin: "20px 0px ",
+                  margin: "10px 0px 0px 0px ",
                 }}
               ></div>
-              <div className="flex justify-start">
-                <button className="edition-1 mx-3">Hire me</button>
-                <button className="edition-2 mx-3">Download Resume</button>
-              </div>
-            </div>
+                <div className="flex justify-start my-[20px]">
+                  <button className="edition-1 mr-3">Hire me</button>
+                  <button className="edition-2 ">Download Resume</button>
+                </div>
+              </>
+              ):
+              ""
+            }
           </div>
         </div>
       </section>
