@@ -4,8 +4,8 @@ import React,{useState,useEffect} from 'react'
 import '../index.css'
 
 import { styles } from "../styles";
-import Computer from "../assets/pngwing.com.png";
-import me from "../assets/me1.jpg";
+
+import mee from "../assets/mee.png";
 
 const Hero = () => {
   const [width,setWidth] = useState(window.innerWidth)
@@ -54,9 +54,9 @@ const Hero = () => {
 
 
         <div
-          className={` ${width<900?styles.paddingX:""} flex flex-row items-start `}
+          className={`  flex flex-row items-start `}
         >
-          <img src={me} alt="" className="mx-auto" style={{ maxWidth: "390px", width:"97%",height: "100%" }}/>
+          <img src={mee} alt="" className="mx-auto"/>
         </div>
       </div>
     </section>

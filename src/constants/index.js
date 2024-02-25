@@ -176,7 +176,7 @@ const skills = [
   {
     name: "Next",
     icon: next,
-  },
+  }, 
   {
     name: "Java",
     icon: java,
