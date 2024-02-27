@@ -33,16 +33,15 @@ const Hero = () => {
               A Professional <span className="text-[#915EFF]">Developer</span>
             </p>
             <p className="mt-2 md:text-[22px] text-1xl text-white-100" style={{lineHeight:"1.5"}}>
-            Web tech expert in MERN, PHP. ct Native..<br/>             
+            Web tech expert in MERN, PHP. ct Native. dsfsdfdfsdfddf.<br></br> jnfdmndsfjnndkdfngjkndfjgnfdjgnjfdngjkfdngjknkndfjndjfn            
             </p><br />
             {
-              width>800?(
+              (
                 <div className="flex justify-start my-[5px]">
                 <button className="edition-1 mr-3">Hire me</button>
                 <button className="edition-2 ">Download Resume</button>
               </div>
-              ):
-              ""
+              )
             }
           </div>
         </div>
