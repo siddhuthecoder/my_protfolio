@@ -5,7 +5,7 @@ import '../index.css'
 
 import { styles } from "../styles";
 
-import mee from "../assets/mee.png";
+import meee from "../assets/meee.png";
 
 const Hero = () => {
   const [width,setWidth] = useState(window.innerWidth)
@@ -32,8 +32,9 @@ const Hero = () => {
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
               A Professional <span className="text-[#915EFF]">Developer</span>
             </p>
-            <p className="mt-2 md:text-[22px] text-1xl text-white-100" style={{lineHeight:"1.5"}}>
-            Web tech expert in MERN, PHP. ct Native. dsfsdfdfsdfddf.<br></br> jnfdmndsfjnndkdfngjkndfjgnfdjgnjfdngjkfdngjknkndfjndjfn            
+            <p className="mt-2 md:text-[22px] text-1xl text-white-100 overflow-auto" style={{lineHeight:"1.5"}}>
+           
+               A seasoned professional proficient in harnessing <br></br>the power of MERN stack, Solidity, and React Native  <br></br>to craft dynamic web and blockchain apps.           
             </p><br />
             {
               (
@@ -55,7 +56,7 @@ const Hero = () => {
         <div
           className={`  flex flex-row items-start `}
         >
-          <img src={mee} alt="" className="mx-auto"/>
+          <img src={meee} alt="" className="mx-auto"/>
         </div>
       </div>
     </section>

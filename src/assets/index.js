@@ -54,8 +54,6 @@ import github from "./github.png";
 import facebook from './facebook.png';
 import twitter from './twitter.png';
 
-
-
 import manage from './manage.png';
 
 export {

@@ -23,9 +23,6 @@ import {
   ecrush,
   sdcac,
   teckzite,
-
-
-
   flutter,
   linux,
   next,
@@ -47,8 +44,13 @@ import {
   sdcac1,
   teckzite_logo,
   meebuddy_logo,
-  ecrushlogo
+  ecrushlogo,
+
 } from "../assets";
+import hardhat from '../assets/tech/hardhat.png';
+import truffle from '../assets/tech/truffle.png';
+import crowdfund from '../assets/crowdfund.png';
+import crypto from '../assets/crypto.png';
 
 export const navLinks = [
   {
@@ -81,10 +83,13 @@ export const navLinks = [
 
 const services = [
   {
+    title: "BlockChain Development",
+    icon: manage,
+  },
+  {
     title: "Web Designing",
     icon: web,
   },
-
   {
     title: "Backend Development",
     icon: backend,
@@ -93,11 +98,6 @@ const services = [
     title: "Mobile App Development",
     icon: mobile,
   },
-  {
-    title: "BlockChain Development",
-    icon: manage,
-  },
-
   {
     title: "UI/UX Designing & Product Designing",
     icon: creator,
@@ -127,6 +127,10 @@ const skills = [
   },
   {
     name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "React Native",
     icon: reactjs,
   },
   {
@@ -166,13 +170,18 @@ const skills = [
     icon: figma,
   },
   {
-    name: "etherium",
+    name: "ethereum",
     icon: etherium,
   },
   {
-    name: "solidity",
-    icon: sol,
+    name:"hardhat",
+    icon:hardhat,
   },
+   {
+    name:"truffle",
+    icon:truffle,
+  },
+
   {
     name: "Next",
     icon: next,
@@ -185,6 +194,15 @@ const skills = [
     name: "Linux",
     icon: linux,
   },
+  {
+    name:"thirdweb",
+    icon:"",
+  },
+  {
+    name:"",
+    icon:"",
+  }
+
 ];
 const experiences = [
   {
@@ -242,6 +260,26 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Ecrush",
+    description: "Website of a student body organization at RGUKT,Nuzvid",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodeJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ecrush,
+    source_code_link: "https://github.com/Yasvanth-2005/ecrush",
+  },
   {
     name: "Ecrush",
     description: "Website of a student body organization at RGUKT,Nuzvid",
@@ -360,39 +398,69 @@ const Websites = [
 
 const web3 = [
   {
-    name: "GHMS",
-    description: "A Hostel managment system with multiple features",
+    name: "Decentralized Fund Collecting Platform",
+    description: "This is Platform which allow user to start a campaign and ask other for funding to their Campaign",
     tags: [
       {
-        name: "php",
+        name: "Solidity",
         color: "blue-text-gradient",
       },
       {
-        name: "mysql",
+        name: "thirdWeb",
         color: "green-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "React.js",
         color: "pink-text-gradient",
       },
+      {
+        name: "Node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Hardhat",
+        color: "grey-text-gradient",
+      },
+      {
+        name: "Ethers.js",
+        color: "blue-text-gradient",
+      },
     ],
-    image: ghms,
-    source_code_link: "https://github.com/Yasvanth-2005/ghms",
+    image: crowdfund,
+    source_code_link: "https://github.com/siddhuthecoder/crowdFunding.git",
   },
   {
-    name: "Teckzite",
-    description: "A webiste for a techfest for the year 2023of RGUKT,Nuzvid",
+    name: "Crypto Exchange Platform",
+    description: "This is Platform which allow user to send the cryptos to others using metamask",
     tags: [
+      
       {
-        name: "php",
+        name: "React.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Hardhat",
+        color: "grey-text-gradient",
+      },
+      {
+        name: "Solidity",
         color: "blue-text-gradient",
       },
       {
-        name: "mysql",
+        name: "ethers.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
     ],
-    image: teckzite,
+    image: crypto,
+    source_code_link: "https://github.com/siddhuthecoder/crowdFunding.git",
   },
 ];
 const socialLinks = [
