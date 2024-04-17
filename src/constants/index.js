@@ -51,6 +51,11 @@ import hardhat from '../assets/tech/hardhat.png';
 import truffle from '../assets/tech/truffle.png';
 import crowdfund from '../assets/crowdfund.png';
 import crypto from '../assets/crypto.png';
+import te24 from '../assets/24.png'
+import cse from '../assets/cse.png'
+import third from '../assets/tech/third.png'
+import aws from '../assets/tech/aws.png'
+
 
 export const navLinks = [
   {
@@ -62,7 +67,7 @@ export const navLinks = [
     title: "Services",
   },
   {
-    id: "Skills",
+    id: "Skills", 
     title: "Skills",
   },
   {
@@ -196,11 +201,11 @@ const skills = [
   },
   {
     name:"thirdweb",
-    icon:"",
+    icon:third,
   },
   {
-    name:"",
-    icon:"",
+    name:"AWS",
+    icon:aws,
   }
 
 ];
@@ -219,7 +224,7 @@ const experiences = [
     ],
   },
   {
-    title: "Teckzite Web & App Manager",
+    title: "Teckzite Web Manager",
     company_name: "Teckzite",
     icon: teckzite_logo,
     iconBg: "#383E56",
@@ -261,8 +266,8 @@ const experiences = [
 
 const projects = [
   {
-    name: "Ecrush",
-    description: "Website of a student body organization at RGUKT,Nuzvid",
+    name: "Teckzite24 official website using MERN",
+    description: "Teckzite, an annual National Level Techno-management fest celebrated and lionized by the student community of Rajiv Gandhi University of Knowledge Technologies, Nuzvid. Teckzite excites the students by all means and makes them wait throughout the year.",
     tags: [
       {
         name: "react",
@@ -276,16 +281,20 @@ const projects = [
         name: "mongodb",
         color: "green-text-gradient",
       },
+      {
+        name: "AWS",
+        color: "pink-text-gradient",
+      },
     ],
-    image: ecrush,
-    source_code_link: "https://github.com/Yasvanth-2005/ecrush",
+    image: te24,
+    source_code_link: "https://teckzite.org/webteam",
   },
   {
-    name: "Ecrush",
-    description: "Website of a student body organization at RGUKT,Nuzvid",
+    name: "Department of CSE , RGUKT Nuzvid",
+    description: "The Department of Computer Science and Engineering at RGUKT Nuzvid is committed to excellence in Computer Science and Engineering in the context of the evolving discipline.  It is provided with very good experimental facilities for research and a strong technical staff. ",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
@@ -296,33 +305,18 @@ const projects = [
         name: "mongodb",
         color: "green-text-gradient",
       },
-    ],
-    image: ecrush,
-    source_code_link: "https://github.com/Yasvanth-2005/ecrush",
-  },
-  {
-    name: "GHMS",
-    description: "A Hostel managment system with multiple features",
-    tags: [
       {
-        name: "php",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap",
+        name: "express",
         color: "pink-text-gradient",
       },
     ],
-    image: ghms,
-    source_code_link: "https://github.com/Yasvanth-2005/ghms",
+    image: cse,
+    source_code_link: "https://depofcse-frontend2.vercel.app/",
   },
   {
-    name: "Teckzite",
-    description: "A webiste for a techfest for the year 2023of RGUKT,Nuzvid",
+    name: "Teckzite23 Official Website using LAMP",
+    description: "Teckzite, an annual National Level Techno-management fest celebrated and lionized by the student community of Rajiv Gandhi University of Knowledge Technologies, Nuzvid. Teckzite excites the students by all means and makes them wait throughout the year.",
+ 
     tags: [
       {
         name: "php",
@@ -331,17 +325,212 @@ const projects = [
       {
         name: "mysql",
         color: "green-text-gradient",
+      },
+      {
+        name: "html css and js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "Orange-text-gradient",
       },
     ],
     image: teckzite,
+    source_code_link: "https://teckzite.org/webteam",
   },
+  
+
+  {
+    name: "Ecrush",
+    description: "E-CRUSH has started on 2016 Feb. This site is intended to provide the best resources to the RGUKTians and others. The reason, for starting this is to create a platform where a student can learn English from the basics and be able to speak fluently in English without errors and with confidence.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodeJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ecrush,
+    source_code_link: "https://ecrush.vercel.app/",
+  },
+
+
+  {
+    name: "SDCAC Official Website",
+    description: "Student Development and Campus Activity Cell warmly called as SDCAC by the students of RGUKT Nuzvid, is the prestigious organization of the University, working for overall individual development of students through co-curricular activities. ",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongo DB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sdcac,
+    source_code_link: "",
+  },
+  {
+    name: "Decentralized Fund Collecting Platform",
+    description: "This is Platform which allow user to start a campaign and ask other for funding to their Campaign",
+    tags: [
+      {
+        name: "Solidity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "thirdWeb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Hardhat",
+        color: "grey-text-gradient",
+      },
+      {
+        name: "Ethers.js",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: crowdfund,
+    source_code_link: "https://github.com/siddhuthecoder/crowdFunding.git",
+  },
+  {
+    name: "Crypto Exchange Platform",
+    description: "This is Platform which allow user to send the cryptos to others using metamask",
+    tags: [
+      
+      {
+        name: "React.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Hardhat",
+        color: "grey-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ethers.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+    ],
+    image: crypto,
+    source_code_link: "https://github.com/siddhuthecoder/ethExchange.git",
+  },
+ 
 ];
 
 const apps = [];
 const Websites = [
+
+  {
+    name: "Teckzite24 official website using MERN",
+    description: "Teckzite, an annual National Level Techno-management fest celebrated and lionized by the student community of Rajiv Gandhi University of Knowledge Technologies, Nuzvid. Teckzite excites the students by all means and makes them wait throughout the year.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodeJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: te24,
+    source_code_link: "https://teckzite.org/webteam",
+  },
+  {
+    name: "Department of CSE , RGUKT Nuzvid",
+    description: "The Department of Computer Science and Engineering at RGUKT Nuzvid is committed to excellence in Computer Science and Engineering in the context of the evolving discipline.  It is provided with very good experimental facilities for research and a strong technical staff. ",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodeJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cse,
+    source_code_link: "https://depofcse-frontend2.vercel.app/",
+  },
+  {
+    name: "Teckzite23 Official Website using LAMP",
+    description: "Teckzite, an annual National Level Techno-management fest celebrated and lionized by the student community of Rajiv Gandhi University of Knowledge Technologies, Nuzvid. Teckzite excites the students by all means and makes them wait throughout the year.",
+ 
+    tags: [
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html css and js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "Orange-text-gradient",
+      },
+    ],
+    image: teckzite,
+    source_code_link: "https://teckzite.org/webteam",
+  },
+  
+
   {
     name: "Ecrush",
-    description: "Website of a student body organization at RGUKT,Nuzvid",
+    description: "E-CRUSH has started on 2016 Feb. This site is intended to provide the best resources to the RGUKTians and others. The reason, for starting this is to create a platform where a student can learn English from the basics and be able to speak fluently in English without errors and with confidence.",
     tags: [
       {
         name: "react",
@@ -357,44 +546,33 @@ const Websites = [
       },
     ],
     image: ecrush,
-    source_code_link: "https://github.com/Yasvanth-2005/ecrush",
+    source_code_link: "https://ecrush.vercel.app/",
   },
+
+
   {
-    name: "GHMS",
-    description: "A Hostel managment system with multiple features",
+    name: "SDCAC Official Website",
+    description: "Student Development and Campus Activity Cell warmly called as SDCAC by the students of RGUKT Nuzvid, is the prestigious organization of the University, working for overall individual development of students through co-curricular activities. ",
     tags: [
       {
-        name: "php",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mysql",
+        name: "Mongo DB",
         color: "green-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "AWS",
         color: "pink-text-gradient",
       },
     ],
-    image: ghms,
-    source_code_link: "https://github.com/Yasvanth-2005/ghms",
+    image: sdcac,
+    source_code_link: "",
   },
-  {
-    name: "Teckzite",
-    description: "A webiste for a techfest for the year 2023of RGUKT,Nuzvid",
-    tags: [
-      {
-        name: "php",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "green-text-gradient",
-      },
-    ],
-    image: teckzite,
-  },
+ 
 ];
+
 
 const web3 = [
   {
@@ -460,7 +638,7 @@ const web3 = [
       },
     ],
     image: crypto,
-    source_code_link: "https://github.com/siddhuthecoder/crowdFunding.git",
+    source_code_link: "https://github.com/siddhuthecoder/ethExchange.git",
   },
 ];
 const socialLinks = [

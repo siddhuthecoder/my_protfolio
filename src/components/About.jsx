@@ -63,6 +63,7 @@ const About = () => {
           style={{ height: "auto", width: "100%", flexWrap: "wrap" }}
         >
           <div className={`mx-auto`}>
+            
             <img
               src={me1}
               alt=""

@@ -33,8 +33,17 @@ const Hero = () => {
               A Professional <span className="text-[#915EFF]">Developer</span>
             </p>
             <p className="mt-2 md:text-[22px] text-1xl text-white-100 overflow-auto" style={{lineHeight:"1.5"}}>
-           
-               A seasoned professional proficient in harnessing <br></br>the power of MERN stack, Solidity, and React Native  <br></br>to craft dynamic web and blockchain apps.           
+           {
+            width>900?(
+              <>
+              A seasoned professional proficient in harnessing <br></br>the power of MERN stack, Solidity, and React Native  <br></br>to craft dynamic web and blockchain apps.           
+</>
+
+            ):(<>
+               A seasoned professional proficient in harnessing the power of MERN stack, Solidity, and React Native  to craft dynamic web and blockchain apps.           
+            
+            </>)
+           }
             </p><br />
             {
               (

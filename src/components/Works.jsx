@@ -92,7 +92,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="w-full flex justify-around tab-bar mx-auto mt-7" style={{ width: "100%", maxWidth: "750px", alignItems: "center" }}>
+      <div className="w-full flex justify-around  tab-bar mx-auto mt-7" style={{ width: "100%", maxWidth: "750px", alignItems: "center" }}>
         <div
           className={`tabName ${tab === "projects" && "active-tab"}`}
           onClick={() => setTab("projects")}
@@ -119,7 +119,7 @@ const Works = () => {
         </div>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap gap-7 align-items-center justify-center" >
         {currentProjects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
