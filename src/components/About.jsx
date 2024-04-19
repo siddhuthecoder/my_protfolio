@@ -39,7 +39,11 @@ const About = () => {
     },
     {
       title: "Education",
-      data: "RGUKT Nuzvid(Btech-CSE )",
+      data: "Btech-CSE",
+    },
+    {
+      title: "College",
+      data: "Rajiv Gandhi university of Knowledge and technologies Nuzvid",
     },
     {
       title: "Email",
@@ -49,10 +53,7 @@ const About = () => {
       title: "Contact",
       data: "+91 93988 48215",
     },
-    {
-      title: "Contact",
-      data: "+91 93988 48215",
-    },
+  
     
   ];
   return (

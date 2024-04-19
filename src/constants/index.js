@@ -55,6 +55,7 @@ import te24 from '../assets/24.png'
 import cse from '../assets/cse.png'
 import third from '../assets/tech/third.png'
 import aws from '../assets/tech/aws.png'
+// import sol from '../assets/sol.png'
 
 
 export const navLinks = [
@@ -173,6 +174,10 @@ const skills = [
   {
     name: "figma",
     icon: figma,
+  },
+  {
+    name: "Solidity",
+    icon: sol,
   },
   {
     name: "ethereum",
