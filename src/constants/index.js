@@ -55,7 +55,7 @@ import te24 from '../assets/24.png'
 import cse from '../assets/cse.png'
 import third from '../assets/tech/third.png'
 import aws from '../assets/tech/aws.png'
-// import sol from '../assets/sol.png'
+import gugla from '../assets/gugla.png'
 
 
 export const navLinks = [
@@ -388,6 +388,27 @@ const projects = [
     source_code_link: "",
   },
   {
+    name: "Gugla News Official Webiste",
+    description: "Gugla : Get Updates from Global to Local Anytime GUGLA-is a short news app, where you get instant updates from global to local in all different categories like sports , entertainment , politics and many more.We provide the best genuine content in any topic and also a platform to enhance your interaction using polls and communal writings. ",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gugla,
+    source_code_link: "https://guglanews.com/",
+  },
+
+  {
     name: "Decentralized Fund Collecting Platform",
     description: "This is Platform which allow user to start a campaign and ask other for funding to their Campaign",
     tags: [
@@ -531,7 +552,27 @@ const Websites = [
     image: teckzite,
     source_code_link: "https://teckzite.org/webteam",
   },
-  
+  {
+    name: "Gugla News Official Webiste",
+    description: "Gugla : Get Updates from Global to Local Anytime GUGLA-is a short news app, where you get instant updates from global to local in all different categories like sports , entertainment , politics and many more.We provide the best genuine content in any topic and also a platform to enhance your interaction using polls and communal writings. ",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gugla,
+    source_code_link: "https://guglanews.com/",
+  },
+
 
   {
     name: "Ecrush",
