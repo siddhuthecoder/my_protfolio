@@ -716,11 +716,7 @@ const socialLinks = [
     name: "whatsapp",
     icon: whatsapp,
   },
-  {
-    link: "https://wa.me/9398848215",
-    name: "facebook",
-    icon: facebook,
-  },
+ 
 ];
 
 export {

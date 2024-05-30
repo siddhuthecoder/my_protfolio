@@ -21,10 +21,10 @@ const Footer = () => {
             </li>
           ))}
         </ul>
-        <div className="flex gap-3 items-center ">
+        <div className="flex gap-2 items-center ">
           <p>+91 93988 48215</p>
           <span>|</span>
-          <div className="flex gap-3">
+          <div className="flex gap-2">
             {socialLinks.map((link) => (
               <Link to={link.link} key={link.name}>
                 <div className="rounded-md bg-white">
