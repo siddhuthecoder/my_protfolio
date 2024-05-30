@@ -1,4 +1,4 @@
-import React ,{useState,useEffect}from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -13,13 +13,13 @@ import me3 from "../assets/me3.jpg";
 import me4 from "../assets/me4.jpg";
 
 const About = () => {
-  const [width,setWidth] = useState(window.innerWidth)
+  const [width, setWidth] = useState(window.innerWidth);
   const handleWidth = () => {
-    setWidth(window.innerWidth)
-  }
-  useEffect(()=> {
-    window.addEventListener('resize',handleWidth)
-},[])
+    setWidth(window.innerWidth);
+  };
+  useEffect(() => {
+    window.addEventListener("resize", handleWidth);
+  }, []);
   const userData = [
     {
       title: "Name",
@@ -27,7 +27,7 @@ const About = () => {
     },
     {
       title: "Age",
-      data: "18 years(20-05-2005)",
+      data: "19 years(20-05-2005)",
     },
     {
       title: "Nationality",
@@ -53,22 +53,22 @@ const About = () => {
       title: "Contact",
       data: "+91 93988 48215",
     },
-  
-    
   ];
   return (
     <>
       <section>
+        <h2 className={`text-sm${styles.sectionHeadText} + theme-color `}>
+          About.
+        </h2>
         <div
           className="flex justify-between "
           style={{ height: "auto", width: "100%", flexWrap: "wrap" }}
         >
           <div className={`mx-auto`}>
-            
             <img
               src={me1}
               alt=""
-              style={{ maxWidth: "420px", width:"97%",height: "100%" }}
+              style={{ maxWidth: "420px", width: "97%", height: "100%" }}
             />
           </div>
 
@@ -76,17 +76,20 @@ const About = () => {
             variants={textVariant()}
             style={{ width: "100%", maxWidth: "600px" }}
           >
-             {/* <p className={styles.sectionSubText}>Introduction</p>  */}
-             <h2 className={`text-sm${styles.sectionHeadText} + theme-color ` }>
-              About.
-            </h2> 
+            {/* <p className={styles.sectionSubText}>Introduction</p>  */}
+
             <div>
-              <p className="" style={{ color: "grey" }}>
-                Proficient in web technologies (MERN stack, NEXT.js PHP, MySQL), adept
-                at crafting engaging web apps. Skilled in Flutter, React Native,
-                and blockchain, specializing in smart contracts, NFTs, DeFi, and
-                web3 integration. Ready to navigate web, mobile, and blockchain
-                landscapes.
+              <p className="mt-2" style={{ color: "grey" }}>
+                Experienced in cutting-edge web technologies with a strong
+                emphasis on blockchain integration and Web3 development.
+                Proficient in utilizing MERN stack, NEXT.js, PHP, and MySQL to
+                craft dynamic and engaging web applications. Specializing in the
+                implementation of blockchain technology, smart contracts, NFTs,
+                and DeFi solutions, with a keen understanding of decentralized
+                systems and protocols. Skilled in Flutter and React Native for
+                seamless cross-platform mobile development, ensuring
+                comprehensive coverage across web, mobile, and blockchain
+                landscapes. 
               </p>
               {/* <div className="flex  gap-2 mt-4">
                 {socialLinks.map((link) => (
@@ -135,30 +138,29 @@ const About = () => {
                   </div>
                 </div>
               ))}
-              
-            
             </div>
-            
-            {
-              width<800?(
-                <>
+
+            {width < 800 ? (
+              <>
                 <div
-                style={{
-                  backgroundColor: "grey",
-                  width: "100%",
-                  height: "2px",
-                  borderRadius: "10px",
-                  margin: "10px 0px 0px 0px ",
-                }}
-              ></div>
+                  style={{
+                    backgroundColor: "grey",
+                    width: "100%",
+                    height: "2px",
+                    borderRadius: "10px",
+                    margin: "10px 0px 0px 0px ",
+                  }}
+                ></div>
                 <div className="flex justify-start my-[20px]">
-                <a href="https://wa.me/9398848215" target="_blank"><button className="edition-1 mr-3">Hire me</button></a>
+                  <a href="https://wa.me/9398848215" target="_blank">
+                    <button className="edition-1 mr-3">Hire me</button>
+                  </a>
                   <button className="edition-2 ">Download Resume</button>
                 </div>
               </>
-              ):
+            ) : (
               ""
-            }
+            )}
           </div>
         </div>
       </section>

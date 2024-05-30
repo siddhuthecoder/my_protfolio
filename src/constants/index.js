@@ -693,7 +693,7 @@ const web3 = [
   },
 ];
 const socialLinks = [
-  { link: "",
+  { link: "https://github.com/siddhuthecoder",
    name: "github",
     icon: github },
   {

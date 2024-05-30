@@ -55,15 +55,15 @@ const Hero = () => {
                 </>
               ) : (
                 <>
-                  {/* A seasoned professional proficient in harnessing the power of
+                  A seasoned professional proficient in harnessing the power of
 									MERN stack, Solidity, and React Native to craft dynamic web
-									and blockchain apps. */}
-                  A seasoned professional proficient in leveraging the MERN
+									and blockchain apps.
+                  {/* A seasoned professional proficient in leveraging the MERN
                   stack, Next.js, Solidity, and React Native to craft dynamic
                   Web3 applications, decentralized applications (dApps), and web
                   applications. Specializes in developing robust
                   blockchain-based solutions, ensuring seamless integration and
-                  functionality across decentralized ecosystems.
+                  functionality across decentralized ecosystems. */}
                 </>
               )}
             </p>
