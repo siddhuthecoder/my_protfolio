@@ -152,7 +152,7 @@ const About = () => {
                 }}
               ></div>
                 <div className="flex justify-start my-[20px]">
-                  <button className="edition-1 mr-3">Hire me</button>
+                <a href="https://wa.me/9398848215" target="_blank"><button className="edition-1 mr-3">Hire me</button></a>
                   <button className="edition-2 ">Download Resume</button>
                 </div>
               </>

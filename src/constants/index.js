@@ -56,6 +56,7 @@ import cse from '../assets/cse.png'
 import third from '../assets/tech/third.png'
 import aws from '../assets/tech/aws.png'
 import gugla from '../assets/gugla.png'
+import python from '../assets/python.png';
 
 
 export const navLinks = [
@@ -89,7 +90,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "BlockChain Development",
+    title: "BlockChain Software Development",
     icon: manage,
   },
   {
@@ -199,6 +200,10 @@ const skills = [
   {
     name: "Java",
     icon: java,
+  },
+  {
+    name: "Python",
+    icon: python,
   },
   {
     name: "Linux",
@@ -702,17 +707,17 @@ const socialLinks = [
     icon: instagram,
   },
   {
-    link: "",
+    link: "https://x.com/codewithsiddhu",
     name: "twitter",
     icon: twitter,
   },
   {
-    link: "",
+    link: "https://wa.me/9398848215",
     name: "whatsapp",
     icon: whatsapp,
   },
   {
-    link: "",
+    link: "https://wa.me/9398848215",
     name: "facebook",
     icon: facebook,
   },
