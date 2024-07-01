@@ -57,6 +57,7 @@ import third from '../assets/tech/third.png'
 import aws from '../assets/tech/aws.png'
 import gugla from '../assets/gugla.png'
 import python from '../assets/python.png';
+import flask from '../assets/flask.png'
 
 
 export const navLinks = [
@@ -105,10 +106,16 @@ const services = [
     title: "Mobile App Development",
     icon: mobile,
   },
+ 
   {
     title: "UI/UX Designing & Product Designing",
     icon: creator,
   },
+  {
+    title: "Machine Learning Solutions with Web Integration",
+    icon: backend,
+  },
+
 ];
 
 const skills = [
@@ -156,10 +163,10 @@ const skills = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Flutter",
-    icon: flutter,
-  },
+  // {
+  //   name: "Flutter",
+  //   icon: flutter,
+  // },
   {
     name: "MySQL",
     icon: sql,
@@ -204,6 +211,10 @@ const skills = [
   {
     name: "Python",
     icon: python,
+  },
+  {
+    name: "flask",
+    icon: flask,
   },
   {
     name: "Linux",
