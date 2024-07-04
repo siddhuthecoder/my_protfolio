@@ -6,6 +6,7 @@ import "../index.css";
 import { styles } from "../styles";
 
 import meee from "../assets/meee.png";
+import siddatha_yernagula_web from "../assets/siddatha_yernagula_web.pdf"
 
 const Hero = () => {
   const [width, setWidth] = useState(window.innerWidth);
@@ -73,8 +74,8 @@ const Hero = () => {
                 <a href="https://wa.me/9398848215" target="_blank">
                   <button className="edition-1 mr-3">Hire me</button>
                 </a>
-                {/* <a href="https://wa.me/9398848215" download="siddhu_portfolio.pdf"> */}
-				<a href="https://wa.me/9398848215" target="_blank">
+                <a href="siddatha_yernagula_web" download="siddatha_yernagula_web">
+				{/* <a href="https://wa.me/9398848215" target="_blank"> */}
                   <button className="edition-2 ">Download Resume</button>
                 </a>
               </div>

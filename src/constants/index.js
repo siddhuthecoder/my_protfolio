@@ -236,7 +236,7 @@ const experiences = [
     company_name: "MeeBuddy",
     icon: meebuddy_logo,
     iconBg: "#E6DEDD",
-    date: "May 2022 - Till Now",
+    date: "May 2022 - Mar 2024",
     points: [
       "MeeBuddy is a digital platform that is serving the needs of people in towns and rural areas of Andhra Pradesh",
       "Designing and developing Website Using MERN Stack and Figma",
@@ -249,7 +249,7 @@ const experiences = [
     company_name: "Teckzite",
     icon: teckzite_logo,
     iconBg: "#383E56",
-    date: "April 2023 - Till now",
+    date: "Mar 2024 - May 2024",
     points: [
       "Teckzite, an annual National Level Techno-management fest celebrated and lionized by the student community of Rajiv Gandhi University of Knowledge Technologies, Nuzvid.",
       "Developing and maintaining web applications using React.js,Next.js,Express.js and related technologies and Developing android and ios app using React Native  ",
@@ -262,7 +262,7 @@ const experiences = [
     company_name: "Sdcac",
     icon: sdcac1,
     iconBg: "#E6DEDD",
-    date: "Feb 2022 - May 2023",
+    date: "Dec 2021 - Sep 2023",
     points: [
       "Student Development and Campus Activity Cell warmly called as SDCAC by the students of RGUKT Nuzvid, is the prestigious organization of the University, working for overall individual development of students through co-curricular activities",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -275,7 +275,7 @@ const experiences = [
     company_name: "Ecrush",
     icon: ecrushlogo,
     iconBg: "#383E56",
-    date: "Jan 2022 - Aug 2023",
+    date: "Sep 2023 - Dec 2023",
     points: [
       "Leading a web development team in the design and implementation of projects.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers.",
