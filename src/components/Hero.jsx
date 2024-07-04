@@ -6,7 +6,7 @@ import "../index.css";
 import { styles } from "../styles";
 
 import meee from "../assets/meee.png";
-import siddatha_yernagula_web from "../assets/siddatha_yernagula_web.pdf"
+import siddatha_yernagula_web from "../assets/siddatha_yernagula_web.pdf";
 
 const Hero = () => {
   const [width, setWidth] = useState(window.innerWidth);
@@ -57,8 +57,8 @@ const Hero = () => {
               ) : (
                 <>
                   A seasoned professional proficient in harnessing the power of
-									MERN stack, Solidity, and React Native to craft dynamic web
-									and blockchain apps.
+                  MERN stack, Solidity, and React Native to craft dynamic web
+                  and blockchain apps.
                   {/* A seasoned professional proficient in leveraging the MERN
                   stack, Next.js, Solidity, and React Native to craft dynamic
                   Web3 applications, decentralized applications (dApps), and web
@@ -74,9 +74,11 @@ const Hero = () => {
                 <a href="https://wa.me/9398848215" target="_blank">
                   <button className="edition-1 mr-3">Hire me</button>
                 </a>
-                <a href="siddatha_yernagula_web" download="siddatha_yernagula_web">
-				{/* <a href="https://wa.me/9398848215" target="_blank"> */}
-                  <button className="edition-2 ">Download Resume</button>
+                <a
+                  href="./siddatha_yernagula_web.pdf"
+                  download="siddatha_yernagula_web.pdf"
+                >
+                  <button className="edition-2">Download Resume</button>
                 </a>
               </div>
             }
