@@ -155,7 +155,7 @@ const About = () => {
                   <a href="https://wa.me/9398848215" target="_blank">
                     <button className="edition-1 mr-3">Hire me</button>
                   </a>
-                  <button className="edition-2 " herf="./siddatha_yernagula_web.pdf" download="siddatha_yernagula_web.pdf">Download Resume</button>
+                  <button className="edition-2 " herf="./siddatha_yernagula_web.pdf" download="siddartha_yernagula_web.pdf">Download Resume</button>
                 </div>
               </>
             ) : (
