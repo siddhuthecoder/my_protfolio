@@ -6,7 +6,7 @@ import "../index.css";
 import { styles } from "../styles";
 
 import meee from "../assets/meee.png";
-import siddatha_yernagula_web from "../assets/siddatha_yernagula_web.pdf";
+import siddatha_yernagula_web from "../assets/siddhu_resume.pdf";
 
 const Hero = () => {
   const [width, setWidth] = useState(window.innerWidth);
@@ -75,8 +75,8 @@ const Hero = () => {
                   <button className="edition-1 mr-3">Hire me</button>
                 </a>
                 <a
-                  href="./siddatha_yernagula_web.pdf"
-                  download="siddatha_yernagula_web.pdf"
+                  href="./siddhu_resume.pdf"
+                  download="siddatha_yernagula.pdf"
                 >
                   <button className="edition-2">Download Resume</button>
                 </a>

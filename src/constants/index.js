@@ -58,7 +58,10 @@ import aws from '../assets/tech/aws.png'
 import gugla from '../assets/gugla.png'
 import python from '../assets/python.png';
 import flask from '../assets/flask.png'
-
+import angular from '../assets/tech/angular.svg'
+import aws1 from '../assets/tech/aws.svg'
+import graph from '../assets/tech/graphql.svg'
+import postgresql from '../assets/tech/postgresql.svg'
 
 export const navLinks = [
   {
@@ -163,10 +166,10 @@ const skills = [
     name: "MongoDB",
     icon: mongodb,
   },
-  // {
-  //   name: "Flutter",
-  //   icon: flutter,
-  // },
+  {
+    name: "Angular",
+    icon: angular,
+  },
   {
     name: "MySQL",
     icon: sql,
@@ -226,8 +229,20 @@ const skills = [
   },
   {
     name:"AWS",
-    icon:aws,
-  }
+    icon:aws1,
+  },
+  {
+    name:"graphQL",
+    icon:graph,
+  },
+  // {
+  //   name:"docker",
+  //   icon:docker,
+  // },
+  // {
+  //   name:"postgresql",
+  //   icon:postgresql,
+  // }
 
 ];
 const experiences = [
@@ -275,7 +290,7 @@ const experiences = [
     company_name: "Ecrush",
     icon: ecrushlogo,
     iconBg: "#383E56",
-    date: "Sep 2023 - Dec 2023",
+    date: "Jun 2021 - sep 2023",
     points: [
       "Leading a web development team in the design and implementation of projects.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers.",
