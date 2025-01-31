@@ -66,6 +66,10 @@ import postgresql from '../assets/tech/postgresql.svg'
 import webjs from '../assets/tech/1_2GHi9FwnyA5UTJpcxPSG7A.jpg'
 import delisys from "../assets/company/delisys_technologies_logo.jpg"
 import qik from "../assets/company/qikbuk_logo.jpg"
+import OPS360 from "../assets/OPS360.png"
+import fastag from "../assets/Screenshot 2025-01-31 190349.png"
+import freighteg from "../assets/freighteg.png"
+import portal from "../assets/portal.png"
 export const navLinks = [
   {
     id: "about",
@@ -342,6 +346,101 @@ const experiences = [
 
 const projects = [
   {
+    name: "OPS-360",
+    description: "OPS360 is a property management solution designed to streamline and automate the process of managing repairs, maintenance, and other operational tasks within a property. It helps property managers efficiently track, log, and address issues by automating notifications, task assignments, and communication.",
+    tags: [
+      {
+        name: "Node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Swagger",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Azure",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: OPS360,
+    source_code_link: "https://fe.vops360.com/",
+  },
+  {
+    name: "Fastag Tracking",
+    description: "A comprehensive platform built with the MERN stack, streamlining vehicle services like Fastag, Vahan, Sarathi, and trip tracking. It offers real-time vehicle tracking, license updates, and trip history through a secure, intuitive interface for easy management of vehicle and travel data",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux toolkit",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fastag,
+    source_code_link: "https://fastagtracking.com/",
+  },
+  {
+    name: "Freight EG",
+    description: "FreightEG is a transport services platform built with the MERN stack, connecting transporters, companies, and staff. It streamlines operations with a competitive bidding system for loads, along with management tools for tracking loads, staff, and branches, ensuring efficiency and cost-effectiveness.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "figma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: freighteg,
+  },
+  {
+    name: "Gate Mock Test Portal",
+    description: "The dynamic quiz application was developed using the MERN stack (MongoDB, Express.js, React.js, Node.js) to offer an engaging and interactive quiz platform. It features an admin panel for posting and managing quizzes, user interaction for quiz submissions, separate scorecards for each quiz, and a real-time leaderboard.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodeJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portal,
+    source_code_link: "http://quizsid.vercel.app/",
+  },
+  {
     name: "Teckzite24 official website using MERN",
     description: "Teckzite, an annual National Level Techno-management fest celebrated and lionized by the student community of Rajiv Gandhi University of Knowledge Technologies, Nuzvid. Teckzite excites the students by all means and makes them wait throughout the year.",
     tags: [
@@ -551,6 +650,101 @@ const apps = [];
 const Websites = [
 
   {
+    name: "OPS-360",
+    description: "OPS360 is a property management solution designed to streamline and automate the process of managing repairs, maintenance, and other operational tasks within a property. It helps property managers efficiently track, log, and address issues by automating notifications, task assignments, and communication.",
+    tags: [
+      {
+        name: "Node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Swagger",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Azure",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: OPS360,
+    source_code_link: "https://fe.vops360.com/",
+  },
+  {
+    name: "Fastag Tracking",
+    description: "A comprehensive platform built with the MERN stack, streamlining vehicle services like Fastag, Vahan, Sarathi, and trip tracking. It offers real-time vehicle tracking, license updates, and trip history through a secure, intuitive interface for easy management of vehicle and travel data",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux toolkit",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fastag,
+    source_code_link: "https://fastagtracking.com/",
+  },
+  {
+    name: "Freight EG",
+    description: "FreightEG is a transport services platform built with the MERN stack, connecting transporters, companies, and staff. It streamlines operations with a competitive bidding system for loads, along with management tools for tracking loads, staff, and branches, ensuring efficiency and cost-effectiveness.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "figma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: freighteg,
+  },
+  {
+    name: "Gate Mock Test Portal",
+    description: "The dynamic quiz application was developed using the MERN stack (MongoDB, Express.js, React.js, Node.js) to offer an engaging and interactive quiz platform. It features an admin panel for posting and managing quizzes, user interaction for quiz submissions, separate scorecards for each quiz, and a real-time leaderboard.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodeJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portal,
+    source_code_link: "http://quizsid.vercel.app/",
+  },
+  {
     name: "Teckzite24 official website using MERN",
     description: "Teckzite, an annual National Level Techno-management fest celebrated and lionized by the student community of Rajiv Gandhi University of Knowledge Technologies, Nuzvid. Teckzite excites the students by all means and makes them wait throughout the year.",
     tags: [
@@ -623,27 +817,7 @@ const Websites = [
     image: teckzite,
     source_code_link: "https://teckzite.org/webteam",
   },
-  {
-    name: "Gugla News Official Webiste",
-    description: "Gugla : Get Updates from Global to Local Anytime GUGLA-is a short news app, where you get instant updates from global to local in all different categories like sports , entertainment , politics and many more.We provide the best genuine content in any topic and also a platform to enhance your interaction using polls and communal writings. ",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-    ],
-    image: gugla,
-    source_code_link: "https://guglanews.com/",
-  },
-
+  
 
   {
     name: "Ecrush",
@@ -687,6 +861,27 @@ const Websites = [
     image: sdcac,
     source_code_link: "",
   },
+  {
+    name: "Gugla News Official Webiste",
+    description: "Gugla : Get Updates from Global to Local Anytime GUGLA-is a short news app, where you get instant updates from global to local in all different categories like sports , entertainment , politics and many more.We provide the best genuine content in any topic and also a platform to enhance your interaction using polls and communal writings. ",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gugla,
+    source_code_link: "https://guglanews.com/",
+  },
+
  
 ];
 
