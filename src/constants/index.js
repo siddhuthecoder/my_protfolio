@@ -45,10 +45,11 @@ import {
   teckzite_logo,
   meebuddy_logo,
   ecrushlogo,
-
 } from "../assets";
 import hardhat from '../assets/tech/hardhat.png';
 import truffle from '../assets/tech/truffle.png';
+import azure from '../assets/tech/azure.webp';
+import ionic from '../assets/tech/ionic.webp';
 import crowdfund from '../assets/crowdfund.png';
 import crypto from '../assets/crypto.png';
 import te24 from '../assets/24.png'
@@ -62,7 +63,9 @@ import angular from '../assets/tech/angular.svg'
 import aws1 from '../assets/tech/aws.svg'
 import graph from '../assets/tech/graphql.svg'
 import postgresql from '../assets/tech/postgresql.svg'
-
+import webjs from '../assets/tech/1_2GHi9FwnyA5UTJpcxPSG7A.jpg'
+import delisys from "../assets/company/delisys_technologies_logo.jpg"
+import qik from "../assets/company/qikbuk_logo.jpg"
 export const navLinks = [
   {
     id: "about",
@@ -115,7 +118,7 @@ const services = [
     icon: creator,
   },
   {
-    title: "Machine Learning Solutions with Web Integration",
+    title: "AI Based Applications ",
     icon: backend,
   },
 
@@ -171,6 +174,10 @@ const skills = [
     icon: angular,
   },
   {
+    name: "Ionic",
+    icon: ionic,
+  },
+  {
     name: "MySQL",
     icon: sql,
   },
@@ -197,6 +204,10 @@ const skills = [
   {
     name:"hardhat",
     icon:hardhat,
+  },
+  {
+    name:"Web3.js",
+    icon:webjs,
   },
    {
     name:"truffle",
@@ -232,6 +243,10 @@ const skills = [
     icon:aws1,
   },
   {
+    name:"Azure",
+    icon:azure,
+  },
+  {
     name:"graphQL",
     icon:graph,
   },
@@ -246,6 +261,31 @@ const skills = [
 
 ];
 const experiences = [
+  
+  {
+    title: "Backend Engineer",
+    company_name: "Delisys Technologies",
+    icon: delisys,
+    iconBg: "#E6DEDD",
+    date: "Sep 2023 - Till Now",
+    points: [
+      "Developing and maintaining backend systems to support cloud-based solutions for businesses, ensuring seamless functionality and scalability.",
+      "Assisting in cloud migrations and integrating cloud-native applications, enhancing operational efficiency.",
+      "Collaborating with cloud consultants and engineers to deliver optimized, secure, and affordable cloud solutions.",
+
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "QikBik",
+    icon: qik,
+    iconBg: "#E6DEDD",
+    date: "Mar 2023 - Aug-2023",
+    points: [
+      "Developed and maintained four major applications—FreightEG, FastagTracking, Proffer, and SchoolEG—using the MERN stack, enhancing performance, scalability, and user experience.",
+      "Led the design and implementation of features for transport services, vehicle tracking, logistics, and school management systems, ensuring secure and efficient operations.",
+    ],
+  },
   {
     title: "Full Stack Web Developer & React Native Developer",
     company_name: "MeeBuddy",
@@ -264,7 +304,7 @@ const experiences = [
     company_name: "Teckzite",
     icon: teckzite_logo,
     iconBg: "#383E56",
-    date: "Mar 2024 - May 2024",
+    date: "Mar 2021 - May 2025",
     points: [
       "Teckzite, an annual National Level Techno-management fest celebrated and lionized by the student community of Rajiv Gandhi University of Knowledge Technologies, Nuzvid.",
       "Developing and maintaining web applications using React.js,Next.js,Express.js and related technologies and Developing android and ios app using React Native  ",
